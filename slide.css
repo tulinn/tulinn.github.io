@@ -23,6 +23,13 @@ h1 {
   overflow: hidden;
   margin: 20px auto 0 auto;
   border-radius: 4px;
+/*
+  padding: 0;
+  border: 0;
+  font: inherit;
+  font-size: 100%;
+  vertical-align: baseline;
+*/
 }
 
 #slider ul {
@@ -39,7 +46,7 @@ h1 {
   float: left;
   margin: 0;
   padding: 0;
-  width: 500px;
+  width: 100%;
   height: 300px;
   background: #ccc;
   text-align: center;

@@ -4,7 +4,15 @@
   <!-- CSS -->
   <link rel="stylesheet" type="text/css" href="slide.css">
   <link rel="stylesheet" type="text/css" href="nav.css">
+  <!-- jQuery library (served from Google) -->
+  <script src="//ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="/js/jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+  <link href="/lib/jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
   <link rel="stylesheet" type="text/css" href="style.css">
+
 </head>
 
 <body>
@@ -21,20 +29,24 @@
   </nav>
 
   <!-- Content panel -->
-  <div id="content">
+  <div id="content" class="col-xs-12">
     
     <h1>Welcome to My Website</h1>
 
     <!-- Slide -->
-    <div id="slider">
-      <a href="#" class="control_next">>></a>
-      <a href="#" class="control_prev"><</a>
-      <ul>
-        <li>SLIDE 1</li>
-        <li style="background: #aaa;">SLIDE 2</li>
-        <li>SLIDE 3</li>
-        <li style="background: #aaa;">SLIDE 4</li>
-      </ul>  
+    <div id="slider" class="col-xs-12">
+    <a href="#" class="control_next">>></a>
+    <a href="#" class="control_prev"><</a>
+      <ul class="bxslider">
+      <li>SLIDE 1</li>
+      <li style="background: #aaa;">SLIDE 2</li>
+      <li>SLIDE 3</li>
+      <li style="background: #aaa;">SLIDE 4</li> 
+      <li><img src="/images/pic1.jpg" /></li>
+      <li><img src="/images/pic2.jpg" /></li>
+      <li><img src="/images/pic3.jpg" /></li>
+      <li><img src="/images/pic4.jpg" /></li>
+      </ul>
     </div>
 
     <div class="menu-trigger"></div>
