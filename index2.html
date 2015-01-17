@@ -1,0 +1,93 @@
+<html lang="en">
+<head>    
+  <title>Tulin's Website</title>   
+  <!-- CSS -->
+<!--  <link rel="stylesheet" type="text/css" href="slide.css">-->
+  <link rel="stylesheet" type="text/css" href="nav.css">
+  <!-- jQuery library (served from Google) -->
+  
+  <link href="jquery.bxslider.css" rel="stylesheet" />
+  <link rel="stylesheet" type="text/css" href="bootstrap.min.css">
+  <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav id="slide-menu">
+    <ul>
+      <li class="timeline">Timeline</li>
+      <li class="events">Events</li>
+      <li class="calendar">Calendar</li>
+      <li class="sep settings">Settings</li>
+      <li class="logout">Logout</li>
+    </ul>
+  </nav>
+
+  <!-- Content panel -->
+  <div id="content" class="col-xs-12">
+    
+    <h1>Welcome to My Website</h1>
+
+    <!-- Slide -->
+      <ul class="bxslider">
+<!--
+      <li>SLIDE 1</li>
+      <li style="background: #aaa;">SLIDE 2</li>
+      <li>SLIDE 3</li>
+      <li style="background: #aaa;">SLIDE 4</li> 
+-->
+      <div style="height:100px; ">
+        <li>SLIDE 1</li>
+      </div>
+              <div style="height:100px; ">
+        <li>SLIDE 1</li>
+      </div>
+              <div style="height:100px; ">
+        <li>SLIDE 1</li>
+      </div>
+              <div style="height:100px; ">
+        <li>SLIDE 1</li>
+      </div>
+<!--
+      <li><img src="/images/pic2.jpg" /></li>
+      <li><img src="/images/pic3.jpg" /></li>
+      <li><img src="/images/pic4.jpg" /></li>
+-->
+      
+      </ul>
+      
+    </div>
+
+    <div class="menu-trigger"></div>
+
+  </div>
+
+  <!-- JS -->
+<!--  <script src="http://code.jquery.com/jquery-1.11.2.min.js"></script>-->
+  <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+  <!-- bxSlider Javascript file -->
+  <script src="jquery.bxslider.min.js"></script>
+  <!-- bxSlider CSS file -->
+
+  <script src="nav.js"></script>
+<!--  <script src="slide.js"></script>-->
+
+  <script>
+      $(document).ready(function(){
+        
+        $('.bxslider').bxSlider({
+//          auto: true,
+//          autoControls: true
+          mode: 'fade',
+          captions: true
+        });
+      });
+      </script>
+  
+</body>
+</html> 
+
+
+
