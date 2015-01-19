@@ -94,6 +94,11 @@ a:-webkit-any-link{
   color:#8db359
 }
 
+h1{
+  font-size: 1em;
+  margin: 0.67em 0;
+}
+
 h2{
   display: block;
   font-size: 1.5em;
@@ -151,11 +156,6 @@ h1, h2, .article-list .article-title, h3, dt, h4, h5, h6{
   font: normal normal normal 14px/1 FontAwesome;
   text-rendering: auto;
   -webkit-font-smoothing: antialiased;
-
-}
-
-.fa-3x{
-  font-size: 1em;
 }
 
 i{
@@ -172,3 +172,67 @@ i{
   transition: 0.5s;
   opacity: 1;
 }
+
+.nav > a{
+  color: rgba(66,63,55,0.15);
+  transition: 0.5s;
+  position: fixed;
+  top: 1.3rem;
+  left: 1.3rem;
+}
+
+.nav > a:hover{
+  color: #423f37;
+  transition: 0.5s;
+  opacity: 1;
+}
+
+.nav .home {
+    position: fixed;
+    top: 1.3rem;
+    left: 1.3rem
+}
+
+.main{
+  padding-bottom: 6rem;
+  width: 80%;
+  padding-top: 4rem;
+}
+.article{
+    box-sizing: content-box;
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    max-width: 34rem
+}
+.article-header::after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.article-list .article-title{
+  margin:0
+}
+
+.article-header .article-title{
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+h2, .article-list .article-title{
+  font-size: :1.2rem;
+}
+
+h1, h2, .article-list .article-title, h3, dt{
+  color: #423f37;
+  font-weight: 600;
+}
+
+.article-header .article-date{
+  display: block;
+  font-size: : 0.8rem;
+  color: #c7c2b8;
+}
+
