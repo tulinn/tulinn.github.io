@@ -1,4 +1,3 @@
-<!--
 <?php 
 
 session_start();
@@ -15,6 +14,5 @@ include_once("tulin.html");
 echo $_SESSION["count"];    
     
 ?>
---> 
 
 
