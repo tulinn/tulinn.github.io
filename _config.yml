@@ -1,8 +1,8 @@
 title: Projects
-description: My Personal Website
+description: Blog and website of Tulin Akdogan
 author: Tulin Akdogan
 github: https://github.com/tulinn
-about: I am management engineering student at University of Waterloo. 
+about: I am a management engineering student at University of Waterloo. 
 urls:
     - text: About Me
       url: /about/
@@ -16,3 +16,4 @@ paginate: 20
 per_page: 20
 paginate_path: "/page:num/"
 markdown: kramdown
+lang: "en"
