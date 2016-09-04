@@ -1,9 +1,9 @@
-## My Stack Problems
+## My Website
 
-> This project forked and has been modified from [A simple grey theme for Jekyll](https://github.com/liamsymonds/simplygrey-jekyll), and the search posts using [Super Search](https://github.com/chinchang/super-search)
+> This project forked and has been modified from [My Stack Problems](https://github.com/agusmakmun/agusmakmun.github.io)
 
 ### Demo
-* [https://agusmakmun.github.io](https://agusmakmun.github.io)
+* [https://tulinakdogan.com](https://tulinakdogan.com)
 
 #### Feature
 
@@ -16,6 +16,8 @@
 * Next & Previous Post
 * Disqus comment
 
+<!--
 #### Screenshot
 
 ![Screenshot Post Page](https://raw.githubusercontent.com/agusmakmun/agusmakmun.github.io/master/static/img/screenshot-post-page.png  "Screenshot Post Page")
+-->

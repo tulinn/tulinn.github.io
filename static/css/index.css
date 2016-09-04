@@ -1,0 +1,4 @@
+#tulin-avatar {
+  -webkit-clip-path: circle(100px at 50% 50%);
+  clip-path: circle(100px at 50% 50%);
+}

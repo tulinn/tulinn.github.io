@@ -4,7 +4,7 @@
  * //////////////
  */
 body {
-    font-family: "Roboto Condensed", Arial, sans-serif;
+    font-family: "Calibri";
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5em;
@@ -97,7 +97,7 @@ div.content pre {
     padding: 10px;
     color: #FFF;
     overflow-x: auto;
-    font-family: Menlo, Monaco, Consolas, 'Courier New', monospace;
+    font-family: "Calibri";
     font-size: 12px;
     border: none;
 }
