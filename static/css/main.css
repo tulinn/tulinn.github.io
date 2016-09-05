@@ -149,20 +149,26 @@ div.right .post ul {
  * Left column aka nav bar formatting
  * ///////////////////////////////////
  */
+
+#tulin-avatar {
+  -webkit-clip-path: circle(100px at 50% 50%);
+  clip-path: circle(100px at 50% 50%);
+}
+
 div.col-sm-3 {
-        margin-top: 100px;
-        font-size: 11px;
-        color: #666;
+  margin-top: 50px;
+  font-size: 11px;
+  color: #666;
 }
 
 div.col-sm-3 strong {
-        font-size: 16px;
-        color: #4A4A4A;
-        font-weight: normal;
+  font-size: 16px;
+  color: #4A4A4A;
+  font-weight: normal;
 }
 
 div.col-sm-3 div#about {
-        margin-top: 10px;
+    margin-top: 10px;
 		color: #8C8C8C;
 }
 
