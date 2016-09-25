@@ -60,63 +60,23 @@
 
           </div>            
           <div class="col-sm-8 col-offset-1" id="content-container">      
-            <h1>Code of Conduct in a Team</h1>
+            <h1>File Structure of an Electron Desktop Application</h1>
 <span class="time">23 Sep 2016</span>
 
 <div class="content">
-    <div class="post"><p>Over the last year I’ve had a chance to learn a lot more about early stage
-funding and made angel investments in a handful of startups. So far I’ve
-restricted my involvement to companies with ideas in which I have significant
-domain knowledge. I also insist on founders with relentless product focus, a
-fierce desire to help their customers be more awesome, and excellent
-communication skills. I recently met just such a company, with just such
-founders, tackling a problem that has personally caused me much pain.</p>
+    <div class="post"><p>The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:</p>
 
-<p>The company is <a href="http://replicated.com">Replicated</a>, and founders Grant Miller
-and Marc Campbell are making it easier to roll out an on-prem Enterprise
-offering based on an existing cloud-based SaaS product.</p>
+<p><img src="/static/img/file-structure.jpg" alt="File Structure screenshot" /></p>
 
-<p>At GitHub, we burned through <strong>a lot</strong> of developer cycles building our own
-installer (several times), securing the installation environment, coding an
-automated licensing management system, integrating single sign-on services
-(LDAP, Active Directory, CAS, etc, etc), building out a searchable audit system,
-supporting customer-reviewable support bundles (logs and other diagnostic
-output), allowing numerous backup strategies, and countless other
-Enterprise-specific features that were killing our Enterprise deals. All of this
-on top of hiring and building out the necessary sales, support, and accounting
-teams to create a smooth Enterprise experience for our customers.</p>
+<p>The package.json file contains meta data about the application. It also includes the list of dependencies to install from npm when running npm install. In Electron, the process that runs package.json’s main script is called the main process. The script that runs in the main process can display a GUI by creating web pages. Application’s package.json file has dependency node modules in it. These modules are installed into the “node_modules” folder.</p>
 
-<p>Replicated provides common Enterprise functionality (much of what I mentioned
-above, and all of it eventually) that you can wrap around your SaaS product,
-resulting in a first-class on-prem product in a fraction of the time. Beyond
-just technology, Replicated will help you understand your Enterprise customers
-through documentation on best practices and insight into the requirements and
-reasons that large companies desire the features they do. Until you can
-empathise with your customer (which is very hard to do as a fast-moving SaaS
-startup), you’ll never build the best product possible.</p>
+<p>The main.js file creates windows and handles system events. When Electron finishes initialization and the application is ready, main.js first creates a new browser window and then loads the index.html file into that window.</p>
 
-<p>Getting into the Enterprise market will always be hard. But by reducing the
-technology burden, Replicated plans to erase much of the pain so you can focus
-on the other human-centric tasks. Not only am I an investor in Replicated, I
-believe in their mission and their founders so much that I’ve joined as an
-advisor. I understand what the uphill slog of the SaaS to Enterprise climb feels
-like, and I’m going to do my best to ensure you don’t have to suffer it as much
-as I did.</p>
+<p>The chronological order of the file calls:
+package.json ──&gt; main.js ──&gt; public/pages/index.html</p>
 
-<p>I’m also pleased to announce that Travis CI is now shipping their Enterprise
-product using Replicated. To see what the installation process is like, <a href="https://www.youtube.com/watch?v=ViN-qkcovL0&amp;feature=youtu.be">watch
-Grant install Travis CI
-Enterprise</a> on a
-fresh server in about seven minutes. For a deeper dive, Travis CI has also
-published a blog post covering some of their process in <a href="http://blog.travis-ci.com/2015-06-19-how-we-improved-travis-ci-installation/">getting their
-Enterprise installer ready using
-Replicated</a>.</p>
+<p>The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page in the pages folder. The files in the “js” folder have the same name as the files in the “pages” folder. An Electron application can use multiple pages. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. “js-common” folder has js files used commonly by every page. js-resources folder has the database connection related file.</p>
 
-<p>In the coming weeks, you’ll start to see other well-known startups launching (or
-re-launching) Enterprise versions of their SaaS software on top of Replicated.
-If you’re looking to do the same, and want to save yourself a lot of heartache,
-email <a href="mailto:contact@replicated.com">contact@replicated.com</a>, and start
-focusing on what matters the most: your unique and kickass product.</p>
 </div>
 </div>
 

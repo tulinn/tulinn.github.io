@@ -5,76 +5,36 @@
     <description>My personal website</description>
     <link>https://tulinakdogan.com/</link>
     <atom:link href="https://tulinakdogan.com/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 24 Sep 2016 23:09:24 -0400</pubDate>
-    <lastBuildDate>Sat, 24 Sep 2016 23:09:24 -0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 00:49:40 -0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 00:49:40 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>Code of Conduct in a Team</title>
-        <description>&lt;p&gt;Over the last year I’ve had a chance to learn a lot more about early stage
-funding and made angel investments in a handful of startups. So far I’ve
-restricted my involvement to companies with ideas in which I have significant
-domain knowledge. I also insist on founders with relentless product focus, a
-fierce desire to help their customers be more awesome, and excellent
-communication skills. I recently met just such a company, with just such
-founders, tackling a problem that has personally caused me much pain.&lt;/p&gt;
+        <title>File Structure of an Electron Desktop Application</title>
+        <description>&lt;p&gt;The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:&lt;/p&gt;
 
-&lt;p&gt;The company is &lt;a href=&quot;http://replicated.com&quot;&gt;Replicated&lt;/a&gt;, and founders Grant Miller
-and Marc Campbell are making it easier to roll out an on-prem Enterprise
-offering based on an existing cloud-based SaaS product.&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;/static/img/file-structure.jpg&quot; alt=&quot;File Structure screenshot&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;At GitHub, we burned through &lt;strong&gt;a lot&lt;/strong&gt; of developer cycles building our own
-installer (several times), securing the installation environment, coding an
-automated licensing management system, integrating single sign-on services
-(LDAP, Active Directory, CAS, etc, etc), building out a searchable audit system,
-supporting customer-reviewable support bundles (logs and other diagnostic
-output), allowing numerous backup strategies, and countless other
-Enterprise-specific features that were killing our Enterprise deals. All of this
-on top of hiring and building out the necessary sales, support, and accounting
-teams to create a smooth Enterprise experience for our customers.&lt;/p&gt;
+&lt;p&gt;The package.json file contains meta data about the application. It also includes the list of dependencies to install from npm when running npm install. In Electron, the process that runs package.json’s main script is called the main process. The script that runs in the main process can display a GUI by creating web pages. Application’s package.json file has dependency node modules in it. These modules are installed into the “node_modules” folder.&lt;/p&gt;
 
-&lt;p&gt;Replicated provides common Enterprise functionality (much of what I mentioned
-above, and all of it eventually) that you can wrap around your SaaS product,
-resulting in a first-class on-prem product in a fraction of the time. Beyond
-just technology, Replicated will help you understand your Enterprise customers
-through documentation on best practices and insight into the requirements and
-reasons that large companies desire the features they do. Until you can
-empathise with your customer (which is very hard to do as a fast-moving SaaS
-startup), you’ll never build the best product possible.&lt;/p&gt;
+&lt;p&gt;The main.js file creates windows and handles system events. When Electron finishes initialization and the application is ready, main.js first creates a new browser window and then loads the index.html file into that window.&lt;/p&gt;
 
-&lt;p&gt;Getting into the Enterprise market will always be hard. But by reducing the
-technology burden, Replicated plans to erase much of the pain so you can focus
-on the other human-centric tasks. Not only am I an investor in Replicated, I
-believe in their mission and their founders so much that I’ve joined as an
-advisor. I understand what the uphill slog of the SaaS to Enterprise climb feels
-like, and I’m going to do my best to ensure you don’t have to suffer it as much
-as I did.&lt;/p&gt;
+&lt;p&gt;The chronological order of the file calls:
+package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p&gt;
 
-&lt;p&gt;I’m also pleased to announce that Travis CI is now shipping their Enterprise
-product using Replicated. To see what the installation process is like, &lt;a href=&quot;https://www.youtube.com/watch?v=ViN-qkcovL0&amp;amp;feature=youtu.be&quot;&gt;watch
-Grant install Travis CI
-Enterprise&lt;/a&gt; on a
-fresh server in about seven minutes. For a deeper dive, Travis CI has also
-published a blog post covering some of their process in &lt;a href=&quot;http://blog.travis-ci.com/2015-06-19-how-we-improved-travis-ci-installation/&quot;&gt;getting their
-Enterprise installer ready using
-Replicated&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page in the pages folder. The files in the “js” folder have the same name as the files in the “pages” folder. An Electron application can use multiple pages. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. “js-common” folder has js files used commonly by every page. js-resources folder has the database connection related file.&lt;/p&gt;
 
-&lt;p&gt;In the coming weeks, you’ll start to see other well-known startups launching (or
-re-launching) Enterprise versions of their SaaS software on top of Replicated.
-If you’re looking to do the same, and want to save yourself a lot of heartache,
-email &lt;a href=&quot;mailto:contact@replicated.com&quot;&gt;contact@replicated.com&lt;/a&gt;, and start
-focusing on what matters the most: your unique and kickass product.&lt;/p&gt;
 </description>
         <pubDate>Fri, 23 Sep 2016 13:18:23 -0400</pubDate>
-        <link>https://tulinakdogan.com/2016/09/23/code-of-conduct.html</link>
-        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/23/code-of-conduct.html</guid>
+        <link>https://tulinakdogan.com/2016/09/23/Electron-file-structure.html</link>
+        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/23/Electron-file-structure.html</guid>
         
         
       </item>
     
       <item>
-        <title>Desktop Apps with Electron</title>
-        <description>
+        <title>Why Build Apps with Electron Framework</title>
+        <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron should be chosen, as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Sep 2016 13:18:23 -0400</pubDate>
         <link>https://tulinakdogan.com/2016/09/04/Electron-Desktop-Apps.html</link>
