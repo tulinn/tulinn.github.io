@@ -1,8 +1,8 @@
 title: Projects
-description: Blog and website of Tulin Akdogan
+description: My personal website
 author: Tulin Akdogan
 github: https://github.com/tulinn
-about: I am a management engineering student at University of Waterloo. 
+about: Management engineering student at University of Waterloo. 
 urls:
     - text: About Me
       url: /about/
@@ -11,9 +11,9 @@ urls:
     - text: XML Feed
       url: /feed.xml
 url: "https://tulinakdogan.com"
-baseurl: ""
-paginate: 20
-per_page: 20
-paginate_path: "/page:num/"
-markdown: kramdown
 lang: "en"
+
+# Build settings
+markdown: kramdown
+gems: ['kramdown']
+exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
