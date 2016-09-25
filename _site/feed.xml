@@ -5,13 +5,13 @@
     <description>My personal website</description>
     <link>https://tulinakdogan.com/</link>
     <atom:link href="https://tulinakdogan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 00:49:40 -0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 00:49:40 -0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 01:24:11 -0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 01:24:11 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>File Structure of an Electron Desktop Application</title>
-        <description>&lt;p&gt;The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:&lt;/p&gt;
+        <title>File Organization of an Electron App</title>
+        <description>&lt;p&gt;File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/static/img/file-structure.jpg&quot; alt=&quot;File Structure screenshot&quot; /&gt;&lt;/p&gt;
 
@@ -26,15 +26,15 @@ package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p
 
 </description>
         <pubDate>Fri, 23 Sep 2016 13:18:23 -0400</pubDate>
-        <link>https://tulinakdogan.com/2016/09/23/Electron-file-structure.html</link>
-        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/23/Electron-file-structure.html</guid>
+        <link>https://tulinakdogan.com/2016/09/23/Electron-File-Organization.html</link>
+        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/23/Electron-File-Organization.html</guid>
         
         
       </item>
     
       <item>
         <title>Why Build Apps with Electron Framework</title>
-        <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron should be chosen, as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
+        <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron should be chosen, as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be faster to prototype, less costly to build and easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Sep 2016 13:18:23 -0400</pubDate>
         <link>https://tulinakdogan.com/2016/09/04/Electron-Desktop-Apps.html</link>

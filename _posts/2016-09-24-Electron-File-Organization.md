@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "File Structure of an Electron Desktop Application"
+title: "File Organization of an Electron App"
 date: 2016-09-24 00:18:23 +0700
 ---
 
-The Electron application I built during my internship mainly consists of "node_modules" folder, "public" folder, "main.js" file and "package.json" file as shown in the screenshot below:
+File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of "node_modules" folder, "public" folder, "main.js" file and "package.json" file as shown in the screenshot below:
 
 ![File Structure screenshot]({{ post.url }}/static/img/file-structure.jpg)
 
