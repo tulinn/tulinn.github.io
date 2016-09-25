@@ -5,12 +5,12 @@
     <description>My personal website</description>
     <link>https://tulinakdogan.com/</link>
     <atom:link href="https://tulinakdogan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 01:24:11 -0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 01:24:11 -0400</lastBuildDate>
+    <pubDate>Sun, 25 Sep 2016 14:22:16 -0400</pubDate>
+    <lastBuildDate>Sun, 25 Sep 2016 14:22:16 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
-        <title>File Organization of an Electron App</title>
+        <title>Having Good File Organization in an Electron App</title>
         <description>&lt;p&gt;File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/static/img/file-structure.jpg&quot; alt=&quot;File Structure screenshot&quot; /&gt;&lt;/p&gt;
@@ -22,7 +22,7 @@
 &lt;p&gt;The chronological order of the file calls:
 package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p&gt;
 
-&lt;p&gt;The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page in the pages folder. The files in the “js” folder have the same name as the files in the “pages” folder. An Electron application can use multiple pages. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. “js-common” folder has js files used commonly by every page. js-resources folder has the database connection related file.&lt;/p&gt;
+&lt;p&gt;The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page in the pages folder. The files in the “js” folder have the same name as the files in the “pages” folder. An Electron application can use multiple pages. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. The “js-common” folder has js files used commonly by every page. The “js-resources” folder has the database connection related file.&lt;/p&gt;
 
 </description>
         <pubDate>Fri, 23 Sep 2016 13:18:23 -0400</pubDate>
@@ -34,7 +34,7 @@ package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p
     
       <item>
         <title>Why Build Apps with Electron Framework</title>
-        <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron should be chosen, as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be faster to prototype, less costly to build and easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
+        <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron is recommended as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be faster to prototype, less costly to build and easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Sep 2016 13:18:23 -0400</pubDate>
         <link>https://tulinakdogan.com/2016/09/04/Electron-Desktop-Apps.html</link>
