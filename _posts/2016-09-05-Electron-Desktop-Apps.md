@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Why Build Apps with Electron Framework"
+title: "Electron Desktop Apps"
 date: 2016-09-05 00:18:23 +0700
 ---
 

@@ -4,7 +4,7 @@
  * //////////////
  */
 body {
-    font-family: "Calibri", Calibri, Calibri;
+    font-family: "Calibri", Calibri, Arial;
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5em;
@@ -97,7 +97,7 @@ div.content pre {
     padding: 10px;
     color: #FFF;
     overflow-x: auto;
-    font-family: Calibri, Calibri, Calibri, 'Calibri', Calibri;
+    font-family: Calibri, 'Calibri', Arial;
     font-size: 12px;
     border: none;
 }

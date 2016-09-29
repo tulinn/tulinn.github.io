@@ -5,8 +5,8 @@
     <description>My personal website</description>
     <link>https://tulinakdogan.com/</link>
     <atom:link href="https://tulinakdogan.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 25 Sep 2016 14:22:16 -0400</pubDate>
-    <lastBuildDate>Sun, 25 Sep 2016 14:22:16 -0400</lastBuildDate>
+    <pubDate>Wed, 28 Sep 2016 23:28:41 -0400</pubDate>
+    <lastBuildDate>Wed, 28 Sep 2016 23:28:41 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -33,7 +33,7 @@ package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p
       </item>
     
       <item>
-        <title>Why Build Apps with Electron Framework</title>
+        <title>Electron Desktop Apps</title>
         <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron is recommended as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be faster to prototype, less costly to build and easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Sep 2016 13:18:23 -0400</pubDate>
