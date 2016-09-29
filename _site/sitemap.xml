@@ -5,8 +5,8 @@
     <description>My personal website</description>
     <link>https://tulinakdogan.com/</link>
     <atom:link href="https://tulinakdogan.com/sitemap.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 28 Sep 2016 23:28:41 -0400</pubDate>
-    <lastBuildDate>Wed, 28 Sep 2016 23:28:41 -0400</lastBuildDate>
+    <pubDate>Thu, 29 Sep 2016 00:17:56 -0400</pubDate>
+    <lastBuildDate>Thu, 29 Sep 2016 00:17:56 -0400</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -26,8 +26,8 @@ package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p
 
 </description>
         <pubDate>Fri, 23 Sep 2016 13:18:23 -0400</pubDate>
-        <link>https://tulinakdogan.com/2016/09/23/Electron-File-Organization.html</link>
-        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/23/Electron-File-Organization.html</guid>
+        <link>/2016/09/23/Electron-File-Organization.html</link>
+        <guid isPermaLink="true">/2016/09/23/Electron-File-Organization.html</guid>
         
         
       </item>
@@ -37,8 +37,8 @@ package.json ──&amp;gt; main.js ──&amp;gt; public/pages/index.html&lt;/p
         <description>&lt;p&gt;Electron is a framework to build cross platform desktop applications with web technologies like JavaScript, HTML, and CSS. One of the main reasons Electron is recommended as the framework to develop a desktop application, is because Electron uses the same technology web applications use. Thus, it will be faster to prototype, less costly to build and easy to convert the desktop application to a web application in the future if needed. Another reason is the easy maintenance; desktop applications are easy to maintain and often connect better than web applications. An Electron application runs the same regardless of the operating system.&lt;/p&gt;
 </description>
         <pubDate>Sun, 04 Sep 2016 13:18:23 -0400</pubDate>
-        <link>https://tulinakdogan.com/2016/09/04/Electron-Desktop-Apps.html</link>
-        <guid isPermaLink="true">https://tulinakdogan.com/2016/09/04/Electron-Desktop-Apps.html</guid>
+        <link>/2016/09/04/Electron-Desktop-Apps.html</link>
+        <guid isPermaLink="true">/2016/09/04/Electron-Desktop-Apps.html</guid>
         
         
       </item>
