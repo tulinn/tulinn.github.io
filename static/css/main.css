@@ -4,12 +4,13 @@
  * //////////////
  */
 body {
-    font-family: "Calibri", Calibri, Arial;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
     background-color: #fff;
     font-size: 16px;
     line-height: 1.5em;
     color: #666;
-    font-weight: 300;
+    font-weight: 500;
+    
 }
 hr {
     margin-top: 20px;
@@ -17,6 +18,7 @@ hr {
     border: 0;
     border-top: 1px solid #F7F1F1;
     border-bottom: 1px solid #fff;
+    
 }
 /*
 @media (min-width: 768px) {
@@ -34,26 +36,26 @@ hr {
 span.time, span.categories {
     color: #ADADAD;
     margin-bottom: 5px;
-    font-size: 11px;
+/*    font-size: 11px;*/
 }
 
 h1 {
     font-weight: normal;
-    color: #696969;
+    color: #34495E;
     margin-bottom: 10px;
-    font-size: 25px;
+/*    font-size: 25px;*/
 }
 
 h2 {
-    font-weight: normal;
+    font-weight: 700;
     margin-bottom: 5px;
-    color: #666666;
+    color: #34495E;
 }
         
-h3 {
-    font-weight: normal;
+h3, h4, h5 {
+    font-weight: 700;
     margin-bottom: 5px;
-    color: #666666;
+    color: #34495E;
 }
 
 a, a:link, a:active {
@@ -97,8 +99,8 @@ div.content pre {
     padding: 10px;
     color: #FFF;
     overflow-x: auto;
-    font-family: Calibri, 'Calibri', Arial;
-    font-size: 12px;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
+/*    font-size: 12px;*/
     border: none;
 }
 
@@ -114,7 +116,7 @@ footer {
     margin-bottom: 3em;
     padding-top: 10px;
     color: #C2C2C2;
-    font-size: 11px;
+/*    font-size: 11px;*/
     bottom: 0;
     padding-bottom: 10px;
 }
@@ -150,21 +152,44 @@ div.right .post ul {
  * ///////////////////////////////////
  */
 
+#sidebar-container {
+/*  background: #C5EFF7;*/
+/*  text-align: center;*/
+  font-weight: 600;
+}
+
+
 #tulin-avatar {
+   background-image: url('http://i.stack.imgur.com/Dj7eP.jpg');
+    
+    /* make a square container */
+    width: 150px;
+    height: 150*479/502px;
+
+    /* fill the container, preserving aspect ratio, and cropping to fit */
+    background-size: cover;
+
+    /* center the image vertically and horizontally */
+    background-position: center;
+
+    /* round the edges to a circle with border radius 1/2 container size */
+    border-radius: 50%;
+/*
   -webkit-clip-path: circle(100px at 50% 50%);
   clip-path: circle(100px at 50% 50%);
+*/
 }
 
 div.col-sm-3 {
   margin-top: 50px;
-  font-size: 11px;
+/*  font-size: 11px;*/
   color: #666;
 }
 
 div.col-sm-3 strong {
-  font-size: 16px;
+/*  font-size: 16px;*/
   color: #4A4A4A;
-  font-weight: normal;
+  font-weight: 500;
 }
 
 div.col-sm-3 div#about {
@@ -180,7 +205,7 @@ div.col-sm-3 img#about {
 }
 
 .PageNavigation {
-    font-size: 14px;
+/*    font-size: 14px;*/
     display: block;
     width: auto;
     overflow: hidden;

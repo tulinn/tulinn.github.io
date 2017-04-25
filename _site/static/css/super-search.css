@@ -4,8 +4,8 @@
 */
 
 input#js-search__input {
-    font-size: 12px;
-    font-family: "Calibri", Calibri, Calibri;
+    font-size: 14px;
+    font-family: "PT Sans",Helvetica,Arial,sans-serif;
 }
 .is-active .search__input {
     transform: translateY(0);
