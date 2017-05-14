@@ -41,38 +41,75 @@
             <div class="col-sm-3" id="sidebar-container">
               <a href="/"><img id="tulin-avatar" src="/static/img/avatar2.jpg"/></a>
               <h2 class="author-name">tulin akdogan</h2>
+              <br>
               <div id="about">
-                  <p>love technology, design, coding</p>
+                  <p>4th year management engineering student at University of Waterloo. I've done business technology analyst at Deloitte, developed at Zenith and PM'd at theScore. </p>
                   
               </div>
+              <br>
               <div id="icons">
                 <a href="https://linkedin.com/in/tulinakdogan" ><i title="LinkedIn" class="fa fa-linkedin-square" style="font-size:24px;"></i></a>
                 <a href="https://github.com/tulinn"><i title="Github" class="fa fa-github" style="font-size:24px;"></i></a>
                 <a href="mailto:tulinakdogan@hotmail.com"><i title="Email" class="fa fa-envelope" style="font-size:24px;"></i></a>
                 <a href="https://mobile.twitter.com/tulinn_a"><i title="Twitter" class="fa fa-twitter-square" style="font-size:24px;"></i></a>
               </div>
-              <hr />                
-              <div class="search" id="js-search">
-                  <input type="text" placeholder="Type to search a post" class="search__input form-control" id="js-search__input">
-                  <ul class="search__results" id="js-search__results"></ul>
-              </div>
-              <hr />
+              
 
-              <h4>Navigation</h4>
-                  &nbsp;&raquo; <a class="about" href="/" id="#displayHome">Home</a> <br />
+          </div>  
 
-                  
-                    &nbsp;&raquo; <a class="about" href="/about/">About Me</a><br />
-                  
-                    &nbsp;&raquo; <a class="about" href="https://github.com/tulinn">Github</a><br />
-                  
-                    &nbsp;&raquo; <a class="about" href="/feed.xml">XML Feed</a><br />
-                  
+          <div class="col-sm-8 col-offset-1" id="content-container">
+            <nav class="navbar navbar-default navbar-static-top" id="topbar-container" role="navigation">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"></a>
+                </div>
 
-          </div>            
-          <div class="col-sm-8 col-offset-1" id="content-container">      
-            <h2>Having Good File Organization in an Electron App</h2>
-<span class="time">23 Sep 2016</span>
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a class="about" href="/" id="#displayHome">Home</a></li>
+
+                    
+                      <li><a class="about" href="/about/">About Me </a></li>
+                    
+                      <li><a class="about" href="https://github.com/tulinn">Github </a></li>
+                    
+                      <li><a class="about" href="/feed.xml">XML Feed </a></li>
+                    
+                    
+
+                  </ul>
+                  <form class="navbar-form navbar-right">
+                    <div class="form-group">
+                      <div class="search" id="js-search">
+                      <input type="text" placeholder="Search posts" class="search__input form-control" id="js-search__input" style="font-weight: 100;">
+                      <ul class="search__results" id="js-search__results"></ul>
+                  </div>
+                    </div>
+                    
+                  </form>
+                  
+                  
+<!--
+                  <ul class="nav navbar-nav navbar-right">
+                    <li><a href="#">Link</a></li>
+                    
+                  </ul>
+-->
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+                  
+ 
+            <h3>Having Good File Organization in an Electron App</h3>
+<span class="time" id="date">September 23, 2016</span>
 
 <div class="content">
     <div class="post"><p>File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:</p>
@@ -92,7 +129,7 @@ package.json ──&gt; main.js ──&gt; public/pages/index.html</p>
 </div>
 
             
-            <footer>
+            <footer class="footer">
                 &copy; Tulin Akdogan
 
                 - <a href="https://github.com/tulinn">https://github.com/tulinn</a> - Powered by Jekyll.
@@ -109,7 +146,8 @@ package.json ──&gt; main.js ──&gt; public/pages/index.html</p>
         ================================================== -->
         <!-- Placed at the end of the document so the pages load faster -->
         <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
-        <script src="/static/js/bootstrap.min.js"></script>
+        <script src="/static/js/bootstrap.js"></script>
         <script src="/static/js/super-search.js"></script>
+        <script src="/static/js/main.js"></script>
     </body>
 </html>

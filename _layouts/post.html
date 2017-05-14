@@ -2,8 +2,8 @@
 layout: default
 ---
 
-<h2>{{ page.title }}</h2>
-<span class="time">{{ page.date | date_to_string }}</span>
+<h3>{{ page.title }}</h3>
+<span class="time" id="date">{{ page.date | date: '%B %d, %Y' }}</span>
 
 <div class="content">
     <div class="post">{{ content }}</div>

@@ -2,6 +2,7 @@
 layout: post
 title: "Having Good File Organization in an Electron App"
 date: 2016-09-24 00:18:23 +0700
+summary: "File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code."
 ---
 
 File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of "node_modules" folder, "public" folder, "main.js" file and "package.json" file as shown in the screenshot below:
