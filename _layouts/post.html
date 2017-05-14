@@ -1,10 +1,15 @@
 ---
 layout: default
 ---
+<div id="home">
+  <ul class="posts" style="list-style: none;">
+  <h3>{{ page.title }}</h3>
+  <span class="time" id="date">{{ page.date | date: '%B %d, %Y' }}</span>
 
-<h3>{{ page.title }}</h3>
-<span class="time" id="date">{{ page.date | date: '%B %d, %Y' }}</span>
-
-<div class="content">
-    <div class="post">{{ content }}</div>
+  <div class="content">
+      <div class="post">{{ content }}</div>
+  </div>
+  </ul>
 </div>
+
+

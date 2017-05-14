@@ -2,15 +2,20 @@
 layout: default
 ---
 
-<article class="post">
+<div id="home">
+  <ul class="posts" style="list-style: none;">
+  <article class="post">
 
-  <header class="post-header">
-    <h3 class="post-title">{{ page.title }}</h3>
-    <hr />
-  </header>
+    <header class="post-header">
+      <h3 class="post-title">{{ page.title }}</h3>
+      <hr />
+    </header>
 
-  <div class="post-content">
-    {{ content }}
-  </div>
+    <div class="post-content">
+      {{ content }}
+    </div>
 
-</article>
+  </article>
+  </ul>
+</div>
+
