@@ -17,4 +17,3 @@ lang: "en"
 markdown: kramdown
 gems: ['kramdown']
 exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
-theme: jekyll-theme-cayman
