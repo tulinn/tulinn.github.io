@@ -1,6 +1,6 @@
 ## My Website
 
-> This project forked and has been modified from [My Stack Problems](https://github.com/agusmakmun/agusmakmun.github.io)
+This project forked and has been modified from [My Stack Problems](https://github.com/agusmakmun/agusmakmun.github.io)
 
 ### Demo
 * [https://tulinakdogan.com](https://tulinakdogan.com)
