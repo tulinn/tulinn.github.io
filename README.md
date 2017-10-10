@@ -5,16 +5,6 @@ This project forked and has been modified from [My Stack Problems](https://githu
 ### Demo
 * [https://tulinakdogan.com](https://tulinakdogan.com)
 
-#### Feature
-
-* Sitemap and XML Feed
-* Paginations in homepage
-* Posts under category
-* Realtime Search Posts _(title & description)_ under query.
-* Related Posts
-* Highlight pre
-* Next & Previous Post
-* Disqus comment
 
 <!--
 #### Screenshot
