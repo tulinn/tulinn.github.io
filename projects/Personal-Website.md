@@ -59,7 +59,8 @@ After many trials, I decided to keep it simple and use white for background colo
 #### Logo
 I wanted to choose a simple but meaningful logo for my website and a moon outline does that very well. My logo follows the color scheme of the overall website.
 
-<img src="../assets/img/moon-icon.png" height="40">
+My logo:
+<img src="../assets/img/moon-icon.png" height="30">
 
 
 #### Containers
@@ -75,9 +76,11 @@ The content container highlighted in purple:
 There is a navigation bar, with the links to the main sections of the portfolio, located on the sidebar container. The goal of the navigation bar is to ensure users can easily access the different sections of the website. The navigation bar (circled in purple) is shown below:
 ![Navigation](../assets/img/website-navigation.png)
 
-An additional navigation component was added under all the article and project items to allow a one-click transition across items. The arrows are chronologically ordered based on the date an item was added.     
-![Navigation](../assets/img/website-navigation2.png)
+An additional navigation component was added under all the article and project items to allow a one-click transition across items. The arrows are chronologically ordered based on the date an item was added. 
 
+This is how they look: 
+<img src="../assets/img/website-navigation2.png" height="70">
+   
 ### User Studies
 I used the cognitive walkthrough approach to evaluate the design of my personal website and to make improvements. The usability tests were conducted on 4 diverse users (2 females and 2 males), all students from the University of Waterloo. All the students are in their early 20s. The goal of the usability test as well as the website were described to the user. Users were provided with a link to the website. Users were asked to talk about their feelings as they explore and discover functionalities. As they were stuck, I guided them to show how it works and kept taking notes of the feedback along the way. Users were given a list of tasks to complete. For each task, completion time was recorded. Users were also asked to pick different color versions of the website. 
 

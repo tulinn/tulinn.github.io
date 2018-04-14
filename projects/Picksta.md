@@ -37,6 +37,7 @@ We used the Helvetica font across the website to keep consistency. Aside from le
 #### Logo
 Our logo design reflects the application purpose. The three circles represent the thrree main steps that Picksta guides users through. The final circle is green as it represents user's final selection. The logo follows the color scheme of the overall application.
 
+Our logo:
 <img src="../assets/img/picksta-logo.png" height="50">
 
 
