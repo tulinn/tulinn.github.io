@@ -205,6 +205,15 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
+.icon {
+  color: #ffd162;
+  font-size:30px;
+}
+
+.icon:hover {
+  color:#ffb400;
+}
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {

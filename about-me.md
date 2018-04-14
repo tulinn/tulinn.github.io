@@ -16,10 +16,10 @@ Trying new things always gets me excited! I enjoy reading, exploring, playing ca
 
 For more about me:
 
-<a href="mailto:tulinakdogan@hotmail.com"><i title="Email" class="fa fa-envelope" style="font-size:30px; color:#ffb400;"></i></a> &nbsp;
-<a href="https://linkedin.com/in/tulinakdogan" ><i title="LinkedIn" class="fa fa-linkedin-square" style="font-size:30px; color:#ffb400;"></i></a> &nbsp;
-<a href="https://github.com/tulinn"><i title="Github" class="fa fa-github" style="font-size:30px; color:#ffb400;"></i></a> &nbsp;
-<a href="#"><i title="Resume" class="fa fa-file-text" style="font-size:25px; color:#ffb400;"></i></a> &nbsp;
+<a href="mailto:tulinakdogan@hotmail.com" class="icon"><i title="Email" class="fa fa-envelope"></i></a> &nbsp;
+<a href="https://linkedin.com/in/tulinakdogan" class="icon"><i title="LinkedIn" class="fa fa-linkedin-square"></i></a> &nbsp;
+<a href="https://github.com/tulinn" class="icon"><i title="Github" class="fa fa-github"></i></a> &nbsp;
+<a href="#" class="icon"><i title="Resume" class="fa fa-file-text" style="font-size:25px;"></i></a> &nbsp;
 
 
 
