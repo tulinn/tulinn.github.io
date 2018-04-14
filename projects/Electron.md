@@ -72,7 +72,7 @@ package.json ──> main.js ──> public/pages/index.html
 
 The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page (in the pages folder). The files in the “js” folder have the same name as the files in the “pages” folder. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. “js-common” folder has js files used commonly by every page. js-resources folder has the database connection related file. 
 
-```
+```json
 {
   "name": "Zenith-data-app",
   "version": "0.1.0",
@@ -98,7 +98,7 @@ It is a good software engineering practice to use object-oriented programming (O
 
 As shown below, the constructor function of the project object (projects-tree-controller.js) is instantiated with project definition and suites belong to that project. When a project is first created, there will be no suites associated with that project and thus the suites variable is usually an empty array. 
 
-```
+```js
 function Project(projectDef, projectSuites) {
     this.def = projectDef;
     this.suites = projectSuites;
@@ -107,7 +107,7 @@ function Project(projectDef, projectSuites) {
 
 As shown in below, the constructor function of the suite object (projects-tree-controller.js) is instantiated with many more variables such as suite’s definition, cases belong to that suite, the parent of that suite (project name), source connection information (user name, password, host name, port name, sID) and target connection information (user name, password, host name, port name, sID). 
 
-```
+```js
 function Suite(suiteDef, suiteCases, suiteParent, sUser, sPassword, sHost, sPort, sSID, tUser, tPassword, tHost, tPort, tSID) {
     this.def = suiteDef;
     this.parent = suiteParent;
@@ -131,7 +131,7 @@ function Suite(suiteDef, suiteCases, suiteParent, sUser, sPassword, sHost, sPort
 
 As shown below, the constructor function of the test case object (projects-tree-controller.js) is instantiated with case’s definition, the parent of that case (suite name), the grandparent of that case (project name), source query, target query and mapping details. 
 
-```
+```js
 function TestCase(caseDef, caseParent, caseGrandparent, sQuery, tQuery, caseMappingDetails) {
     this.def = caseDef;
     this.parent = caseParent;
@@ -149,7 +149,7 @@ function TestCase(caseDef, caseParent, caseGrandparent, sQuery, tQuery, caseMapp
 #### Data Structure
 Since JavaScript does not have dictionaries as a data structure, JavaScript objects are used as associative arrays. In order to keep track of each item, a “projects” object was initialized. The “projects” object consists of key-value pairs. The key in this case is the project name and corresponding value is the project object. As mentioned earlier, projects object is stored in a text file (node.txt). As seen in Figure 34, “getProjects” function takes the file name as a parameter and returns projects object. The “getProjects” function tries to read the file and if the file does not exist then it logs the error to the console. If the file exists, “getProjects” assigns the parsed value to projects variable. If type of the “projects” object is equal to “undefined”, then “getProjects” instantiates the project object. The JSON.parse() method parses a string as JSON, optionally transforming the value produced by parsing (Mozilla Developer Network, 2016).
 
-```
+```js
 function getProjects(fileName){
     try {
       projects = JSON.parse(fs.readFileSync(fileName));
@@ -167,8 +167,6 @@ function getProjects(fileName){
     return projects;
 }
 ```
-
-
 
 <a href="/projects/Personal-Website.html"><i title="Back" class="fa fa-long-arrow-left" style="color:#ffb400;"></i></a>
 <a href="/projects/Personal-Website.html" style="color:#ffb400;">Back to "tulinakdogan.com"</a>
