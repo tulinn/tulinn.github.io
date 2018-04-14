@@ -58,17 +58,20 @@ After many trials, I decided to keep it simple and use white for background colo
 The website visually consists of two main containers: a sidebar container and a content container. On the content container, I’m planning to showcase my work (projects and blog writings). I designed the sidebar container to be fixed, as the main goal of the sidebar container is to help users navigate throughout the interface. On the sidebar header, there will be my name and my logo, as well as a brief description about my website. 
 
 The sidebar container highlighted in purple: 
-![Color](../assets/img/website-sidebar.png)
+![Sidebar](../assets/img/website-sidebar.png)
 
 The content container highlighted in purple: 
-![Color](../assets/img/website-content.png)
+![Content](../assets/img/website-content.png)
 
 #### Navigation
 There is a navigation bar, with the links to the main sections of the portfolio, located on the sidebar container. The goal of the navigation bar is to ensure users can easily access the different sections of the website. The navigation bar (circled in purple) is shown below:
-![Color](../assets/img/website-navigation.png)
+![Navigation](../assets/img/website-navigation.png)
+
+An additional navigation component was added under all the article and project items to allow a one-click transition across items. The arrows are chronologically ordered based on the date an item was added.     
+![Navigation](../assets/img/website-navigation2.png)
 
 ### User Studies
-I used the cognitive walkthrough approach to evaluate the design of my personal website and to make improvements. The usability tests were conducted on 4 diverse users, all students from the University of Waterloo. The goal of the usability test as well as the website were described to the user. Users were provided with a link to the website. Users were asked to talk about their feelings as they explore and discover functionalities. As they were stuck, I guided them to show how it works and kept taking notes of the feedback along the way. Users were given a list of tasks to complete. For each task, completion time was recorded. Users were also asked to pick different color versions of the website. 
+I used the cognitive walkthrough approach to evaluate the design of my personal website and to make improvements. The usability tests were conducted on 4 diverse users (2 females and 2 males), all students from the University of Waterloo. All the students are in their early 20s. The goal of the usability test as well as the website were described to the user. Users were provided with a link to the website. Users were asked to talk about their feelings as they explore and discover functionalities. As they were stuck, I guided them to show how it works and kept taking notes of the feedback along the way. Users were given a list of tasks to complete. For each task, completion time was recorded. Users were also asked to pick different color versions of the website. 
 
 #### Metrics
 Quantifiable Metrics
