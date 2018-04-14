@@ -1,20 +1,7 @@
-title: Projects
-description: My personal website
-author: Tulin Akdogan
-github: https://github.com/tulinn
-about: Management engineering student at University of Waterloo. 
-urls:
-    - text: About Me
-      url: /about/
-    - text: Github
-      url: https://github.com/tulinn
-    - text: XML Feed
-      url: /feed.xml
-url: "https://tulinakdogan.com"
-lang: "en"
-
-# Build settings
-markdown: kramdown
-gems: ['kramdown']
-exclude: ['config.ru', 'Gemfile', 'Gemfile.lock', 'vendor', 'Procfile', 'Rakefile']
-theme: jekyll-theme-cayman
+title: tulin akdogan
+url: tulinakdogan.com
+logo: /assets/img/logo.png
+description: Welcome to my website! This is where I share my thoughts, ideas, and projects.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-minimal

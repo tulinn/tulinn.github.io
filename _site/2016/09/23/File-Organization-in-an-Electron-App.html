@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>File Organization in an Electron App | tulin akdogan</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="File Organization in an Electron App" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="File Organization in an Electron App" />
+<meta property="og:description" content="File Organization in an Electron App" />
+<link rel="canonical" href="http://localhost:4000/2016/09/23/File-Organization-in-an-Electron-App.html" />
+<meta property="og:url" content="http://localhost:4000/2016/09/23/File-Organization-in-an-Electron-App.html" />
+<meta property="og:site_name" content="tulin akdogan" />
+<meta property="og:type" content="article" />
+<meta property="article:published_time" content="2016-09-23T13:18:23-04:00" />
+<script type="application/ld+json">
+{"mainEntityOfPage":{"@type":"WebPage","@id":"http://localhost:4000/2016/09/23/File-Organization-in-an-Electron-App.html"},"url":"http://localhost:4000/2016/09/23/File-Organization-in-an-Electron-App.html","description":"File Organization in an Electron App","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"@type":"BlogPosting","headline":"File Organization in an Electron App","dateModified":"2016-09-23T13:18:23-04:00","datePublished":"2016-09-23T13:18:23-04:00","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="shortcut icon" href="/assets/img/moon-icon.png" />
+
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href=""> <h1><b>tulin akdogan</b></h1> </a>
+
+	
+	  <img src="/assets/img/logo.png" alt="Logo"/>
+	
+  <p></p>
+	<p>Welcome to my website! This is where I share my thoughts, ideas, and projects.</p>
+
+                
+          <a role="button" class="btn btn-info" href="http://localhost:4000">Home</a>
+          <a role="button" class="btn btn-info" href="/about-me.html">About Me</a>
+          <a role="button" class="btn btn-info" href="/project.html">Projects</a>
+        
+        <p></p>
+      </header>
+      <section>
+
+      <h2 id="file-organization-in-an-electron-app">File Organization in an Electron App</h2>
+
+<p style="color:#A7AEB4;">September 23, 2016</p>
+
+<hr />
+
+<p>File organization of a programming project is vital for good engineering principles such as abstraction. It is also a good software engineering practice as good file organization makes it easier to maintain and modify the code. The Electron application I built during my internship mainly consists of “node_modules” folder, “public” folder, “main.js” file and “package.json” file as shown in the screenshot below:</p>
+
+<p><img src="/assets/img/file-structure.jpg" alt="File Structure screenshot" /></p>
+
+<p>The package.json file contains meta data about the application. It also includes the list of dependencies to install from npm when running npm install. In Electron, the process that runs package.json’s main script is called the main process. The script that runs in the main process can display a GUI by creating web pages. Application’s package.json file has dependency node modules in it. These modules are installed into the “node_modules” folder.</p>
+
+<p>The main.js file creates windows and handles system events. When Electron finishes initialization and the application is ready, main.js first creates a new browser window and then loads the index.html file into that window.</p>
+
+<p>The chronological order of the file calls:
+package.json ──&gt; main.js ──&gt; public/pages/index.html</p>
+
+<p>The “public” folder is a bundle of frontend items. “css” folder holds the css files. “js” files holds the js files corresponding to each page in the pages folder. The files in the “js” folder have the same name as the files in the “pages” folder. An Electron application can use multiple pages. The only difference is that js files have “.js” extension whereas pages files have “.html” extension. For index.html file in the “pages” folder, there is a corresponding index.js file in the “js” folder. The “js-common” folder has js files used commonly by every page. The “js-resources” folder has the database connection related file.</p>
+
+<div class="PageNavigation">
+
+<a href="/2017/05/13/Live-Operations-in-Mobile-Gaming.html"><i title="Back" class="fa fa-long-arrow-left" style="color:#ffb400;"></i></a>
+<a href="/2017/05/13/Live-Operations-in-Mobile-Gaming.html" style="color:#ffb400;">Back to "Live Operations in Mobile Gaming"</a>
+
+
+<br />
+<a href="/2016/09/04/Electron-Desktop-Apps.html"><i title="Next" class="fa fa-long-arrow-right" style="color:#ffb400;"></i></a>
+<a href="/2016/09/04/Electron-Desktop-Apps.html" style="color:#ffb400;">Next to "Electron Desktop Apps"</a>
+
+</div>
+
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>

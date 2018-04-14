@@ -1,0 +1,168 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+<!-- Begin Jekyll SEO tag v2.4.0 -->
+<title>Picksta | tulin akdogan</title>
+<meta name="generator" content="Jekyll v3.7.3" />
+<meta property="og:title" content="Picksta" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Welcome to my website! This is where I share my thoughts, ideas, and projects." />
+<meta property="og:description" content="Welcome to my website! This is where I share my thoughts, ideas, and projects." />
+<link rel="canonical" href="http://localhost:4000/projects/Picksta.html" />
+<meta property="og:url" content="http://localhost:4000/projects/Picksta.html" />
+<meta property="og:site_name" content="tulin akdogan" />
+<script type="application/ld+json">
+{"url":"http://localhost:4000/projects/Picksta.html","description":"Welcome to my website! This is where I share my thoughts, ideas, and projects.","publisher":{"@type":"Organization","logo":{"@type":"ImageObject","url":"http://localhost:4000/assets/img/logo.png"}},"@type":"WebPage","headline":"Picksta","@context":"http://schema.org"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="stylesheet" href="/assets/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/assets/css/style.css?v=">
+    <link rel="shortcut icon" href="/assets/img/moon-icon.png" />
+
+    <meta name="viewport" content="width=device-width">
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <a href=""> <h1><b>tulin akdogan</b></h1> </a>
+
+	
+	  <img src="/assets/img/logo.png" alt="Logo"/>
+	
+  <p></p>
+	<p>Welcome to my website! This is where I share my thoughts, ideas, and projects.</p>
+
+                
+          <a role="button" class="btn btn-info" href="http://localhost:4000">Home</a>
+          <a role="button" class="btn btn-info" href="/about-me.html">About Me</a>
+          <a role="button" class="btn btn-info" href="/project.html">Projects</a>
+        
+        <p></p>
+      </header>
+      <section>
+
+      <!-- <a href="/project.html"><i title="Projects" class="fa fa-angle-left" style="color:#ffb400; font-size:40px;"></i></a> -->
+
+<h2 id="picksta">Picksta</h2>
+
+<hr />
+
+<h3 id="background">Background</h3>
+<p>Picksta is an iOS application that helps users select their favorite picture from a group of pictures. Picksta was my fourth-year design project.</p>
+
+<h3 id="defining-the-problem">Defining the Problem</h3>
+<p>The increasing prevalence of portable technology, such as smartphones, has caused cameras to become integral to people’s lives. Due to the high quality-cameras on mobile devices, it is now cheaper and easier to take pictures. As a result of the ease of accessibility and low capture cost, people are taking far more photographs than ever before. Individuals often sort through masses of pictures in order to share worthwhile photographed moments with friends and family. This introduces an extremely time consuming and tedious process to narrow down options.</p>
+
+<h3 id="our-vision--solution">Our Vision &amp; Solution</h3>
+<p>My team’s vision was to help users make quick, effective decisions when choosing a picture from a large set of pictures. We decided to tackle this issue by analyzing the steps taken to sort the photos in order to make a decision on the favorite picture selection. My team has developed an iOS application that efficiently guides users through critical decision-making steps to come to an optimal option.</p>
+
+<h3 id="conceptual-design">Conceptual Design</h3>
+<p>A variety of conceptual designs were considered before the team chose the final designs. Conceptual designs for application steps were evaluated based on enjoyability, efficiency, steps, satisfaction, and integration. The designs for the grouping algorithm were evaluated based off effectiveness, run-time, complexity of implementation, and generalizability.</p>
+
+<h4 id="1-group-and-delete">1) Group and Delete</h4>
+<p>This is the first step to help reduce the number of pictures en masse. It starts by running a similarity algorithm on the uploaded pictures and grouping pictures that look similar to each other. There can be up to n number of groups, n being the number of pictures uploaded by the user. If the user decides they do not like a certain group, they can delete that group, effectively eliminating a potentially large number of photos from the process with the click of a button. The pictures in the remaining groups get passed onto the next step.</p>
+
+<h4 id="2-narrow-down-by-swipe">2) Narrow Down by Swipe</h4>
+<p>Three major designs were considered when deciding how users should narrow down their large set of pictures. First, swipe allows users to swipe right if they like the picture and want it to continue to the next step, or swipe left if they do not like it, and would not consider it as a final preference. Next, downsize by picking. This process allows users to pick a favourite set of pictures from the ones they have originally uploaded. For example, if a user uploads 60 pictures, they are asked to pick their favourite 40, and then their favourite 20 in order to move to the next step. Finally, ranking was considered. This process allows the user to see their set of pictures and rank them according to how favourable they are against one another. Only the top ranked pictures would be moved onto the next round.</p>
+
+<p>Based on the results of an evaluation matrix, the swiping option was the best choice for step 2. Not only is the functionality familiar to many users, but this was the most efficient option as well. The swipe logic increases the viewing speed which will be encouraged by the user interface of the application in order to go through many pictures at a fast pace</p>
+
+<h4 id="3-side-by-side-compare">3) Side by Side Compare</h4>
+<p>In the third step, two pictures from the set that passed the previous step are presented to the user for comparison. The user is asked to tap the one they prefer, turning their decision making into micro-decisions of choosing between two pictures instead of multiple. The “untapped” picture disappears and is immediately replaced with another picture. This same process continues until only one picture remains and the user is presented with their top selection.</p>
+
+<h3 id="design-development">Design Development</h3>
+<p>Once the conceptual design decisions were finalized, my team worked on the details of each page. By using human-computer interaction design methods and user surveys – we were able to come up with the best design for an optimal process.</p>
+
+<h4 id="iteration-1">Iteration #1</h4>
+<p>My team used low-fidelity prototypes to test on users to understand how intuitive the design decisions were. This included asking the users what they thought would happen next if they clicked a certain button, what their focus was on the page they were looking at, and what they liked/disliked about the page.</p>
+
+<p>After collecting feedback, my team created the following mockups:</p>
+
+<p><img src="../assets/img/iteration1.png" alt="Iteration1" /></p>
+
+<p>After testing this new design, my team found some factors that needed to be changed. It is difficult for users to know how many more steps remain for them to get to their final picture. It is also difficult to understand what to do next on the grouping page. This can make the users feel like they need to delete at least one group, when they really do not.</p>
+
+<h4 id="iteration-2">Iteration #2</h4>
+<p>My team decided to add a progress bar to resolve the issue of not knowing how far the user is from the final picture. The bar exists on each page in the same place, and multiple users commented on how they appreciated this during user tests. Another major change the group made is to change the grouping page to group and select instead of group and delete. The previous idea was that users would delete the groups they did not want to move forward. However, now the users will select the groups they want to keep, those will be highlighted, and a next button appears to show them that it is time to move on to the next step.</p>
+
+<p>Changes shown below:</p>
+
+<p><img src="../assets/img/iteration2.png" alt="Iteration2" /></p>
+
+<h4 id="iteration-3">Iteration #3</h4>
+<p>The team decided to add information on the group, swipe and compare pages. The information provides users with knowledge of how many pictures are in each group, the amount the users need to swipe through, and how many pictures remain at the final stage of comparison.</p>
+
+<p>Addition of information shown below:</p>
+
+<p><img src="../assets/img/iteration3.png" alt="Iteration3" /></p>
+
+<h3 id="user-studies">User Studies</h3>
+<p>We evaluated the design of our application through user testing.</p>
+
+<h4 id="metrics">Metrics</h4>
+<p>We determined three main metrics that would be the most useful in determining success. These were used to evaluate Picksta in the usability tests:</p>
+<ul>
+  <li>Enjoyability: how much fun the user has using the iOS application</li>
+  <li>Efficiency: measured by time it takes for the user to get through the process</li>
+  <li>Satisfaction: how satisfied the user is with the final picture they have chosen from the set</li>
+</ul>
+
+<h4 id="benchmark">Benchmark</h4>
+<p>The benchmark for Picksta was the manual picture selection process. Thus, the team measured metrics for both manual picture selection and the Picksta picture selection. This way, team was able to evaluate the success of the product.</p>
+
+<h4 id="preference-scale">Preference Scale</h4>
+<p>Users were asked to fill in a post-usability test survey. This survey uses Likert scales to ask about how confident the user was in their selection for both the manual and Picksta process.</p>
+
+<p><img src="../assets/img/app-survey1.png" alt="Survey1" /></p>
+
+<p>In addition, the survey asked users if they would recommend Picksta to friends, and other questions about their experience with Picksta.</p>
+
+<p><img src="../assets/img/app-survey2.png" alt="Survey2" /></p>
+
+<h4 id="planning">Planning</h4>
+<p>The usability tests were conducted on 18 diverse users, all students from the University of Waterloo. The user tests were conducted using two puppy picture sets of 20 pictures each. The first set had white puppies and the second had brown puppies. These sets were chosen in order to give users pictures they would hopefully feel more engaged with than other people’s vacation pictures of selfies and there needed to be one set for the manual process and one to be used with Picksta so that they were not just selecting the same picture in Picksta that they already selected in the manual process.</p>
+
+<h4 id="task-list">Task List</h4>
+<ol>
+  <li>User chooses their favorite dog picture manually on phone with white puppy set, record time and observations in spreadsheet</li>
+  <li>Using the first puppy picture set (white puppies), allow the users to play around with Picksta and become familiar with the steps and how to use it</li>
+  <li>User uses Picksta with the other set of dog pictures (brown puppies), to choose their favorite, record time and observations in spreadsheet</li>
+</ol>
+
+<h4 id="validation-and-verification">Validation and Verification</h4>
+<p>The design of Picksta was verified and validated through usability tests and accounting for edge cases. A pre-usability survey was created to understand how the users felt prior to trying the app. It started with an explanation of what the problem is that Picksta is trying to solve and how it solves it. Then it asks the user if they would use Picksta, how often and if they would be to pay one dollar for the app. It then goes on to ask the user’s age, if they are affected by the problem of selecting photos and if so it asks a little more about the nature of their problem (how many pictures are generally in the set they’re choosing from and average time spent selecting a picture). Users were given a user code to fill in on the pre and post survey. The code was also associated with the notes taken during their usability test so that all three components can be tied together for each user while preserving anonymity.</p>
+
+<h4 id="evaluation-of-the-usability-test">Evaluation of the Usability Test</h4>
+<p>However, as the first few user studies were conducted, the team found that the users were taking a long time using Picksta and they deduced that it was because they were not familiar with it yet, and so the time was not an accurate reflection of how a user would generally use the app. Therefore, another step was added between the two steps above; using the first puppy picture set (white puppies), allow the users to play around with Picksta and become familiar with the steps and how to use it. Because of this, the team only considered the last 15 users that underwent the usability tests, as they were all given the chance to get familiar with the app first. Then the user was asked to take the post-usability test survey. Finally, the user was verbally asked if there was anything they wanted to mention that they had not had a chance to yet and their responses were noted in the spreadsheet.</p>
+
+<h4 id="results">Results</h4>
+<p>From the usability tests it was found that 73% of users preferred Picksta over manually selecting a picture. The majority of users were 27% faster with Picksta versus the manual process. The team believes in reality this number would be much higher since users seemed to feel pressured in the tests to select a picture as fast as they can since the team was waiting for them and since the pictures are not their own, they are not as invested in what is selected. From other user interviews the team has heard about how long it can take people to select a picture to post, and often it would be upwards of 20 minutes. However, in our user studies, it took users no more than a few minutes to manually select a picture. Using the results from the likelihood for a user to recommend Picksta to a friend, the Net Promoter Score was calculated to be 20%. The average American company Net Promoter Score is under 10%.</p>
+
+<p>Additionally, results from the usability study helped the team refine the UI of the app and discover more edge cases. For example, if the user selects only one picture at any point of the process then they are taken directly to the last page in the process, the top selection page.</p>
+
+<h4 id="evaluation-of-design">Evaluation of Design</h4>
+<p>The advantages of the design are that it emulates the way users generally intuitively want to narrow down their pictures. Also, the steps are simple and incorporate steps already in the majority of users’ mental model, such as the “Tinder” swipe step. The design lets the process become much easier and more efficient. The shortcomings of the design are that it could be seen as over-constraining for the small percentage of users who select a picture in a drastically different way. Finally, the risks of the design are that the learning curve is still too steep for people to feel like the time it takes to learn the app is worth it instead of simply doing the manual selection process that they are already familiar with.</p>
+
+<p><a href="/projects/Personal-Website.html"><i title="Next" class="fa fa-long-arrow-right" style="color:#ffb400;"></i></a>
+<a href="/projects/Personal-Website.html" style="color:#ffb400;">Next to “tulinakdogan.com”</a></p>
+
+
+      </section>
+      <footer>
+        
+        <p><small>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></small></p>
+      </footer>
+    </div>
+    <script src="/assets/js/scale.fix.js"></script>
+
+
+  
+  </body>
+</html>
