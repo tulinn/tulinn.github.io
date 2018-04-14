@@ -27,7 +27,7 @@
 	<p>{{ site.description | default: site.github.project_tagline }}</p>
 
         {% if site.show_downloads %}        
-          <a role="button" class="btn btn-info" href="{{site.url}}">Home</a>
+          <a role="button" class="btn btn-info" href="{{ site.github.url }}">Home</a>
           <a role="button" class="btn btn-info" href="{{'/about-me.html'}}">About Me</a>
           <a role="button" class="btn btn-info" href="{{'/project.html'}}">Projects</a>
         {% endif %}
