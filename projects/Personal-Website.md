@@ -26,6 +26,7 @@ Designing a user-friendly website where I can show case my work using a minimali
 I wanted to have three main sections: Articles, Projects and About Me. Through trial and error, I found the optimal way of displaying all three sections with a use of navigation sidebar. I care about organization as well as user experience. Thus, having all sections accessible via a persistent navigation bar that is visible to users at all times was the key. 
 
 Here are the mockups to the website sections:
+
 ![Website Sections](../assets/img/website-sections.png)
 
 The users first lands on the Home page where a list of my blog articles are displayed. Every article item on the list has a title and a short description. There is a link that takes user to the article itself under the description. 
@@ -51,8 +52,15 @@ I made design refinements based on common human-computer interaction techniques 
 These are the fonts I considered for my website: "Noto Sans", "Helvetica Neue", "Helvetica", "Arial", "sans-serif" because they represent my style. Aside from legibility and readability, they are minimal, simple and determined. I want to convey less-formal, modern and friendly messages through this font. 
 
 #### Color
-After many trials, I decided to keep it simple and use white for background color. For titles, I used a dark gray color (#494949). As per font color, I used a gray (#727272), a slightly muted and more natural color close to light black, instead of pure black (#000000) for normal text. For subtle text such as article dates, I chose to use lighter gray tones (#A7AEB4) to have less emphasis on the date and more emphasis on the content. For link color, I decided to use a natural blue (#5bc0de). For hover, I used an accompanying orange(#ffb400).   
-![Color](../assets/img/website-color.png)
+After many trials, I decided to keep it simple and use white for background color. For titles, I used a dark gray color (#494949). As per font color, I used a gray (#727272), a slightly muted and more natural color close to light black, instead of pure black (#000000) for normal text. For subtle text such as article dates, I chose to use lighter gray tones (#A7AEB4) to have less emphasis on the date and more emphasis on the content. For link color, I decided to use a natural blue (#5bc0de). For hover, I used an accompanying orange(#ffb400). 
+
+<img src="../assets/img/website-color.png" height="120">
+
+#### Logo
+I wanted to choose a simple but meaningful logo for my website and a moon outline does that very well. My logo follows the color scheme of the overall website.
+
+<img src="../assets/img/moon-icon.png" height="40">
+
 
 #### Containers
 The website visually consists of two main containers: a sidebar container and a content container. On the content container, I’m planning to showcase my work (projects and blog writings). I designed the sidebar container to be fixed, as the main goal of the sidebar container is to help users navigate throughout the interface. On the sidebar header, there will be my name and my logo, as well as a brief description about my website. 

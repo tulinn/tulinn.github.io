@@ -22,6 +22,25 @@ The increasing prevalence of portable technology, such as smartphones, has cause
 ### Our Vision & Solution
 My team’s vision was to help users make quick, effective decisions when choosing a picture from a large set of pictures. We decided to tackle this issue by analyzing the steps taken to sort the photos in order to make a decision on the favorite picture selection. My team has developed an iOS application that efficiently guides users through critical decision-making steps to come to an optimal option.
 
+### Design Refinements
+We made design refinements based on common human-computer interaction techniques as well as user tests. 
+
+#### Typography
+We used the Helvetica font across the website to keep consistency. Aside from legibility and readability, Helvetica is minimal and simple reflecting our style. 
+
+#### Color
+ My team studied multiple colour schemes that would work best with a wide range of users. After many trials and user feedback, we agreed that purple and white was the best color scheme for Picksta. Below is a screenshot from our working application:
+
+ <img src="../assets/img/picksta-real.jpeg" height="250" style="border: 1px solid #000000;">
+
+
+#### Logo
+Our logo design reflects the application purpose. The three circles represent the thrree main steps that Picksta guides users through. The final circle is green as it represents user's final selection. The logo follows the color scheme of the overall application.
+
+<img src="../assets/img/picksta-logo.png" height="50">
+
+
+
 ### Conceptual Design
 A variety of conceptual designs were considered before the team chose the final designs. Conceptual designs for application steps were evaluated based on enjoyability, efficiency, steps, satisfaction, and integration. The designs for the grouping algorithm were evaluated based off effectiveness, run-time, complexity of implementation, and generalizability. 
 
