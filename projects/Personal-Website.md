@@ -39,7 +39,7 @@ This is how the flow looks:
 
 ### Initial Prototyping
 A low-fidelity mockup:
-![Low-fidelity Mockup](../assets/img/website-low-fidelity-mockup.jpg)
+![Low-fidelity Mockup](../assets/img/website-low-fidelity-mockup.JPG)
 
 A high-fidelity mockup:
 ![High-fidelity Mockup](../assets/img/website.png)
