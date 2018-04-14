@@ -214,6 +214,15 @@ footer {
   color:#ffb400;
 }
 
+.projectImg {
+  height:250px;
+}
+
+.projectImg:hover {
+  opacity: 0.5;
+}
+
+
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {

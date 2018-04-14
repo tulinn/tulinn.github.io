@@ -14,7 +14,7 @@ I love working with people to create remarkable user experiences as I’ve alway
 
 Trying new things always gets me excited! I enjoy reading, exploring, playing casual mobile games and cooking (though I enjoy eating more :D). The reason I’m writing is because I’m a curious person and I love sharing my findings. So stay tuned!
 
-For more about me:
+More about me:
 
 <a href="mailto:tulinakdogan@hotmail.com" class="icon"><i title="Email" class="fa fa-envelope"></i></a> &nbsp;
 <a href="https://linkedin.com/in/tulinakdogan" class="icon"><i title="LinkedIn" class="fa fa-linkedin-square"></i></a> &nbsp;
