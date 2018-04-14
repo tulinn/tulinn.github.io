@@ -102,6 +102,7 @@ My website is under continuous development and maintenance, so there is always r
 
 *   My projects are pretty detailed. An outline would help the user track where they are at the whole article. 
 *   A navigation button from a project item to the Projects section would be helpful.
+*   The width of the sidebar could be smaller width-wise as it currently occupies much of space that could alternatively be used for the actual content such as a project article.
 
 <a href="/projects/Picksta.html"><i title="Back" class="fa fa-long-arrow-left" style="color:#ffb400;"></i></a>
 <a href="/projects/Picksta.html" style="color:#ffb400;">Back to "Picksta"</a>
