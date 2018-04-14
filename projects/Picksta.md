@@ -12,6 +12,10 @@ title: Picksta
 ### Background
 Picksta is an iOS application that helps users select their favorite picture from a group of pictures. Picksta was my fourth-year design project. 
 
+### Tools
+*   Mockups via Balsamiq
+*   iOS App Development via Swift
+
 ### Defining the Problem
 The increasing prevalence of portable technology, such as smartphones, has caused cameras to become integral to people’s lives. Due to the high quality-cameras on mobile devices, it is now cheaper and easier to take pictures. As a result of the ease of accessibility and low capture cost, people are taking far more photographs than ever before. Individuals often sort through masses of pictures in order to share worthwhile photographed moments with friends and family. This introduces an extremely time consuming and tedious process to narrow down options. 
 
