@@ -8,7 +8,7 @@ layout: default
 
 {% for post in site.posts %}
   <h3>{{ post.title }}</h3>
-  <p style="color:#A7AEB4;">{{ post.date | date: '%B %d, %Y' }}</p>
+  <p style="color:#A7AEB4;">{{ post.date | date: '%B %Y' }}</p>
   {{ post.summary }} 
 
   [READ MORE]({{ post.url }})

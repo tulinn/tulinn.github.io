@@ -7,7 +7,7 @@ summary: "Live Operations are the changes to the game after it goes live. Runnin
 
 ## {{page.title}}
 
-<p style="color:#A7AEB4;">{{ page.date | date: '%B %d, %Y' }}</p>
+<p style="color:#A7AEB4;">{{ page.date | date: '%B %Y' }}</p>
 
 * * *
 

@@ -7,7 +7,7 @@ summary: "File organization of a programming project is vital for good engineeri
 
 ## {{page.title}}
 
-<p style="color:#A7AEB4;">{{ page.date | date: '%B %d, %Y' }}</p>
+<p style="color:#A7AEB4;">{{ page.date | date: '%B %Y' }}</p>
 
 * * *
 

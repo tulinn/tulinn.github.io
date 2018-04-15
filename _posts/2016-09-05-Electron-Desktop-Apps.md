@@ -7,7 +7,7 @@ summary: "Electron is a framework to build cross platform desktop applications w
 
 ## {{page.title}}
 
-<p style="color:#A7AEB4;">{{ page.date | date: '%B %d, %Y' }}</p>
+<p style="color:#A7AEB4;">{{ page.date | date: '%B %Y' }}</p>
 
 * * *
 
