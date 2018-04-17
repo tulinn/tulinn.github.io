@@ -56,6 +56,13 @@ After many trials, I decided to keep it simple and use white for background colo
 
 <img src="../assets/img/website-color.png" height="120">
 
+#### Background Color
+I tried different background colors for the sidebar to separate the sidebar from the main section. Overall, I liked the light gray or the original look (no background color) as the strong colors came across confusing. I ended up keeping the original color and adding more colors to the titles instead. 
+
+![Website Background](../assets/img/website-background.png)
+
+<!-- <img src="../assets/img/website-background"> -->
+
 #### Logo
 I wanted to choose a simple but meaningful logo for my website and a moon outline does that very well. My logo follows the color scheme of the overall website.
 
