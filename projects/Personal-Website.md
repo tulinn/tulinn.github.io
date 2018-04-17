@@ -69,6 +69,10 @@ I wanted to choose a simple but meaningful logo for my website and a moon outlin
 My logo:
 <img src="../assets/img/moon-icon.png" height="30">
 
+#### Feedback
+I added subtle hover effects to the items that are clickable. It is important to give users feedback on their capabilities across the website. Clickable texts always have a different color (a color other than the usual black) to emphasize the clickabilty characteristics. Clickable texts also change color, become underlined and get bolded on hover. To show that the images on the projects section are clickable, I lowered the image transparency on hover as I didn't want transitions to be abrupt. 
+
+![Hover](../assets/img/website-hover.png)
 
 #### Containers
 The website visually consists of two main containers: a sidebar container and a content container. On the content container, I’m planning to showcase my work (projects and blog writings). I designed the sidebar container to be fixed, as the main goal of the sidebar container is to help users navigate throughout the interface. On the sidebar header, there will be my name and my logo, as well as a brief description about my website. 
