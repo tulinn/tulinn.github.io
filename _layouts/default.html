@@ -26,10 +26,15 @@
   <p></p>
 	<p>{{ site.description | default: site.github.project_tagline }}</p>
 
-        {% if site.show_downloads %}        
-          <a role="button" class="btn btn-info" href="{{ site.github.url }}">Home</a>
+        {% if site.show_downloads %}
+        <h3><a {% if page.url == "/" %} class="active-link" {% endif %} href="{{ site.github.url }}">Home</a></h3>
+        <h3><a {% if page.url contains "about-me" %} class="active-link" {% endif %} href="{{'/about-me.html'}}">About Me</a></h3>
+        <h3><a {% if page.url contains "project" %} class="active-link" {% endif %} href="{{'/project.html'}}">Projects</a></h3>
+
+          <!-- <a role="button" class="btn btn-info" href="{{ site.github.url }}">Home</a>
           <a role="button" class="btn btn-info" href="{{'/about-me.html'}}">About Me</a>
-          <a role="button" class="btn btn-info" href="{{'/project.html'}}">Projects</a>
+          <a role="button" class="btn btn-info" href="{{'/project.html'}}">Projects</a> -->
+
         {% endif %}
         <p></p>
       </header>
