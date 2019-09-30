@@ -52,17 +52,14 @@
     </div>
     <script src="{{ '/assets/js/scale.fix.js' | relative_url }}"></script>
 
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-84717688-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
 
-  {% if site.google_analytics %}
-			<!-- Global site tag (gtag.js) - Google Analytics -->
-			<script async src="https://www.googletagmanager.com/gtag/js?id=UA-84717688-1"></script>
-			<script>
-				window.dataLayer = window.dataLayer || [];
-				function gtag(){dataLayer.push(arguments);}
-				gtag('js', new Date());
-
-				gtag('config', 'UA-84717688-1');
-			</script>
-  {% endif %}
+      gtag('config', 'UA-84717688-1');
+    </script>
   </body>
 </html>

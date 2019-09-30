@@ -3,5 +3,4 @@ url: tulinakdogan.com
 logo: /assets/img/logo.png
 description: Welcome to my website! This is where I share my thoughts, ideas, and projects.
 show_downloads: true
-google_analytics:
 theme: jekyll-theme-minimal
